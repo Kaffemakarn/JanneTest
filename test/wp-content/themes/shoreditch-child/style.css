@@ -1,0 +1,92 @@
+/*
+Theme Name: Shoreditch child
+Template: shoreditch
+Version: 1.0.1498993069
+Updated: 2017-07-02 10:57:49
+
+*/
+
+.entry-footer, .wpcu_block_title {
+    display: none;
+}
+
+.widget-footer-top-area {
+    background: #dcd2c6;
+	color: #FFF;
+}
+
+.post-24 {
+	height: 90vh;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+	text-align: center;
+}
+
+.page-template-panel-page .hentry.has-post-thumbnail::before {
+    background: rgba(0, 0, 0, 0.2);
+}
+
+button, input[type="button"], input[type="reset"], input[type="submit"] {
+    background: #cc6633;
+}
+
+.widget-footer-area {
+    padding-top: 1em;
+}
+
+.jetpack-testimonial-shortcode {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.site-header {
+	background: #dcd2c6;
+}
+
+.post-65, .site-footer, .widget-footer, .widget-area, .single .site-content, .post-10, .post-11, .post-12, .post-136 {
+	background: #FFF;
+}
+
+@media screen and (min-width: 1020px) {
+	.hentry {
+		padding-top: 2.5em
+	}
+}
+@media screen and (min-width: 896px) {
+	.hentry {
+		padding-top: 2.5em;
+	}
+}
+
+.page-template-panel-page .hentry.has-post-thumbnail {
+    color: #fff;
+    text-shadow: 0 0 0.15em rgba(0, 0, 0, 0.7);
+}
+
+.featured-content .hentry.has-post-thumbnail .button.minimal:focus, .featured-content .hentry.has-post-thumbnail .button.minimal:hover, .page-template-panel-page .hentry.has-post-thumbnail .button.minimal:focus, .page-template-panel-page .hentry.has-post-thumbnail .button.minimal:hover {
+    background: #cc6633;
+}
+
+.a:hover, .post-navigation a:focus .post-title, .post-navigation a:hover .post-title, .site-info a:focus, .site-info a:hover, h1, h2, h3, h4, h5, h6, .site-title  {
+    color: #cc6633;
+}
+
+.main-navigation .primary-menu .current_page_item > a, .main-navigation .primary-menu .current-menu-item > a, .main-navigation .primary-menu .current_page_ancestor > a {
+    border-color: #cc6633;
+}
+
+.nav-previous, .nav-next {
+	display: none;
+}
+
+.main-navigation a, .widget a:hover {
+	color: #cc6633;
+}
+
+.main-navigation a:focus, .main-navigation a:hover, .main-navigation .primary-menu .current_page_item > a, .main-navigation .primary-menu .current-menu-item > a, .main-navigation .primary-menu .current_page_ancestor > a {
+	color: #FFF;
+}
